@@ -70,11 +70,11 @@
             "apiVersion": "2018-02-01",
             "name": "[parameters('hostingPlanName')]",
             "location": "[resourceGroup().location]",
-            "sku": {
-                "name": "P2v3",
-                "tier": "PremiumV3",
-                "size": "P2v3",
-                "family": "Pv3",
+           "sku": {
+                "name": "F1",
+                "tier": "Free",
+                "size": "F1",
+                "family": "F1",
                 "capacity": 1
             },
             "kind": "app",
